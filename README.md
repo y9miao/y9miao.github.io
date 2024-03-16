@@ -1,2 +1,2 @@
 # tyleransom.github.io
-Repository for Tyler Ransom's academic research website.
+Repository for Yang Miao's academic research website.
