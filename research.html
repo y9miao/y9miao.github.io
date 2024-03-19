@@ -78,32 +78,81 @@
         justify-content: space-between;
       }
     </style>
+
+    <style>
+      .paper-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px; /* Adjust the margin as needed */
+      }
+      
+      .paper-img {
+          width: 150px; /* Adjust width as needed */
+          height: auto;
+          margin-right: 20px; /* Adjust the margin between image and text */
+      }
+      
+      .paper-content {
+          flex-grow: 1;
+      }
+      
+      .paper-content h3 {
+          margin-top: 0;
+      }
+      
+      .paper-content p {
+          margin: 5px 0; /* Adjust for spacing between lines */
+      }
+      
+      .paper-content a {
+          margin-right: 10px; /* Space between links */
+          text-decoration: none; /* Optional: removes underline from links */
+          /* Add more styles for your links here */
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>Yang Miao</h1>
         <p>Master Student in Robotics, System and Control at ETH Zurich</p>
-    <h3><a href="https://y9miao.github.io">Home</a></h3>
-        <h3><a href="https://y9miao.github.io/research.html">Publications</a></h3>
-        <h3><a href="https://y9miao.github.io/research.html">Selected Projects</a></h3>
-    <h3><a href="https://y9miao.github.io/research/CV.pdf">CV</a></h3>  
-        <h3><a href="https://y9miao.github.io/personal.html">Personal</a></h3>
-    <b>Links</b><br>
-        <div class="social-row">
-          <a href="yangmiaogz@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
-          <a href="https://scholar.google.com/citations?user=7TCTn7wAAAAJ&hl=en" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
-          <a href="http://github.com/y9miao"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
-          <a href="https://www.linkedin.com/in/yang-miao-415b39202/" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
-          <br>
-        </div>
+        <h3><a href="https://y9miao.github.io">Home</a></h3>
+            <h3><a href="https://y9miao.github.io/research.html">Publications</a></h3>
+            <h3><a href="https://y9miao.github.io/research.html">Selected Projects</a></h3>
+        <h3><a href="https://y9miao.github.io/research/CV.pdf">CV</a></h3>  
+
+      <b>Links</b>
+        <br>
+          <div class="social-row">
+            <a href="yangmiaogz@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
+            <a href="https://scholar.google.com/citations?user=7TCTn7wAAAAJ&hl=en" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
+            <a href="http://github.com/y9miao"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+            <a href="https://www.linkedin.com/in/yang-miao-415b39202/" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
+            <br>
+          </div>
         <br>
       </header>
       <section>
 
-    <h2><a id="recent-RRs-updated" class="anchor" href="#RRpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Papers under Revision to Resubmit</h2>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://tyleransom.github.io/research/CollegeDropout2024Jan31.pdf">College Attrition and the Dynamics of Information Revelation</a> <br> with <a href="http://public.econ.duke.edu/~psarcidi/">Peter Arcidiacono</a>, <a href="https://sites.google.com/site/estebanmaucejo/">Esteban Aucejo</a>, and <a href="http://www.amaurel.net/">Arnaud Maurel</a> <br> <b>2nd Round Revised &amp; Resubmitted, <i>Journal of Political Economy</i></b> (updated Jan 31, 2024) <br><button class="accordion">
-      Abstract
+    <h2><a id="recent-RRs-updated" class="anchor" href="#RRpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Papers under Review</h2>
+      <div class="paper-item">
+        <img src="path_to_your_image.jpg" alt="Paper Figure" class="paper-img">
+        <div class="paper-content">
+            <h3>SceneGraphLoc: Cross-Modal Coarse Visual Localization on 3D Scene Graphs</h3>
+            <p>Yang Miao, Francis Engelmann, Olga Vysotska, Federico Tombari, Marc Pollefeys, Daniel Barath</p>
+            <p>Under Review</p>
+            <a href="https://youtu.be/_7YPGsMrVcQ">[video]</a>
+        </div>
+      </div>
+
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://tyleransom.github.io/research/CollegeDropout2024Jan31.pdf">
+      Cross-Modal Coarse Visual Localization on 3D Scene Graphs</a> 
+      <br> with <a href="http://public.econ.duke.edu/~psarcidi/">Peter Arcidiacono</a>,
+        <a href="https://sites.google.com/site/estebanmaucejo/">Esteban Aucejo</a>, and 
+        <a href="http://www.amaurel.net/">Arnaud Maurel</a>
+      <br> 
+      <b>2nd Round Revised &amp; Resubmitted, <i>Journal of Political Economy</i></b> (updated Jan 31, 2024) <br><button class="accordion">
+    Abstract
     </button>
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> We examine how informational frictions impact schooling and work outcomes. To do so, we estimate a dynamic structural model where individuals face uncertainty about their academic ability and productivity, which respectively determine their schooling utility and wages. Our framework accounts for heterogeneity in college types and majors, as well as occupational search frictions and work hours. Individuals learn from grades and wages in a correlated manner, and may change their choices as a result. Removing informational frictions would increase the college graduation rate by 4.4 percentage points, which would increase further by 2 percentage points in the absence of search frictions. Providing students with full information about their abilities would also result in large increases in the college and white-collar wage premia, while reducing the college graduation gap by family income. </p></div>
     <p style="margin:0"><button class="accordion">
@@ -113,12 +162,7 @@
 
     <hr>
 
-    <h2><a id="recent-papers-updated" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers</h2>
-    <p style="margin:0"> Coming soon. <br> <br> 
-
-    <hr>
-
-    <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published &amp; Forthcoming Papers</h2>
+    <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published Papers</h2>
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://doi.org/10.3368/jhr.0421-11641R1">Divergent: The Time Path of Legacy and Athlete Admissions at Harvard</a> <br> with <a href="http://public.econ.duke.edu/~psarcidi/">Peter Arcidiacono</a> and <a href="http://www.terry.uga.edu/directory/economics/josh-kinsler">Josh Kinsler</a> <br> <i>Journal of Human Resources</i>, 2024, 59 (3): 653&ndash;683. <b>(Lead Article)</b> <br><button class="accordion"> 
     Abstract   
     </button>   
