@@ -62,17 +62,17 @@ a:hover small {
 .wrapper_tow_columns {
   display: flex;
   align-items: flex-start;
-  gap: 5px; /* Adjust the space between the two columns */
+  gap: 1px; /* Adjust the space between the two columns */
 }
 
 .left-column {
-  flex-basis: 35%; /* Adjust based on desired width for left column */
-  max-width: 35%; /* Ensures the column does not exceed the set width */
+  flex-basis: 40%; /* Adjust based on desired width for left column */
+  max-width: 40%; /* Ensures the column does not exceed the set width */
 }
 
 .right-column {
-  flex-basis: 65%; /* Adjust based on desired width for right column */
-  max-width: 65%; /* Ensures the column does not exceed the set width */
+  flex-basis: 60%; /* Adjust based on desired width for right column */
+  max-width: 60%; /* Ensures the column does not exceed the set width */
 }
 
 
