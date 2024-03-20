@@ -62,7 +62,7 @@ a:hover small {
 .wrapper_tow_columns {
   /* display: flex; */
   /* align-items: flex-start; */
-  width: 1000px; /* Fixed width */
+  width: 1600px; /* Fixed width */
   margin:0 auto;
   /*: 0 auto;  Centers the wrapper */
   /*: 1px;  Adjust the space between the two columns */
