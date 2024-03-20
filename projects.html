@@ -1,0 +1,175 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yang Miao</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- New GA4 tracking code, see https://support.google.com/analytics/answer/10271001#analyticsjs-enable-basic --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJD50R0Z7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GNJD50R0Z7');
+    </script>
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+    
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+      .social-row div a {
+        font-size: 14px; /* Adjust size as needed */
+        font-weight: bold; /* Makes text bold */
+        /* Add other styles as needed */
+      }
+    </style>
+
+    <style>
+      .paper-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px; /* Adjust the margin as needed */
+      }
+      
+      .paper-img {
+          width: 200px; /* Adjust width as needed */
+          height: auto;
+          margin-right: 15px; /* Adjust the margin between image and text */
+      }
+      
+      .paper-content {
+          flex-grow: 1;
+      }
+      
+      .paper-content h3 {
+          margin-top: 0;
+      }
+      
+      .paper-content p {
+          margin: 5px 0; /* Adjust for spacing between lines */
+      }
+      
+      .paper-content a {
+          margin-right: 10px; /* Space between links */
+          text-decoration: none; /* Optional: removes underline from links */
+          /* Add more styles for your links here */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Yang Miao</h1>
+        <p>Master Student in Robotics, System and Control at ETH Zurich</p>
+        <h3><a href="https://y9miao.github.io">Home</a></h3>
+            <h3><a href="https://y9miao.github.io/research.html">Publications</a></h3>
+            <h3><a href="https://y9miao.github.io/research.html">Selected Projects</a></h3>
+        <h3><a href="https://y9miao.github.io/research/CV.pdf">CV</a></h3>  
+        <p>
+        <b>Links</b>
+            <div><a href="https://scholar.google.com/citations?user=7TCTn7wAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square"></i> Scholar</a></div>
+            <div><a href="http://github.com/y9miao"><i class="fa fa-github-square"></i> GitHub</a></div>
+            <div><a href="https://www.linkedin.com/in/yang-miao-415b39202/" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a></div>
+        </p>
+        
+        <p>
+        <b>Contact</b>
+        <div class="social-row">
+          <a href="yangmiaogz@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+        </div>
+        </p>
+      </header>
+
+      <section>
+        
+        <h2><a id="recent-RRs-updated" class="anchor" href="#RRpapers" aria-hidden="true">
+            <span class="octicon octicon-link"></span></a>Selected Projects/h2>
+        <div class="paper-item">
+          <img src="research/SGLocTeaser.jpg" alt="Paper Figure" class="paper-img">
+          <div class="paper-content">
+              <h3>Visual Odometry with New Unprecedented Event Camera</h3>
+              <p style="margin:0"><button class="accordion">
+                Abstract
+              </button>
+              <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
+                1. Developed feature tracking algorithms for new event camera with events with <b>absolute intensity value</b>. <br>
+                2. Our method <b>outperform</b> existing method (KLT).
+                3. Our method grants Oculi sensor (low resolution) feature tracking accuracy comparable to Realsense(high resolution).
+              </div>
+              <!-- <p>Status: Under Review</p> -->
+              <p>Supervisors: Nico Messikommer, Dr. Daniel Gehrig, Prof. Dr. Davide Scaramuzza
+              <a href="https://github.com/y9miao/Visual-Odometry-with-new-Unprecedented-Event-Camera">[link]</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+  </body>
+</html>
